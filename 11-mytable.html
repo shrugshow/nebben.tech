@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>11-mytable.html Ben Stacy</title>
+  <!-- Raw HTML template file for use with http://nebben.tech/ -->
+  <link href="https://fonts.googleapis.com/css?family=Varela+Round&display=swap" rel="stylesheet"> 
+  <link href="https://fonts.googleapis.com/css?family=Squada+One&display=swap" rel="stylesheet"> 
+  <meta charset="UTF-8">  
+  <script src = "sort-table.js"></script>
+  <link rel="stylesheet" href="sort-table.css">
+  <style>
+    body{
+    background-color: #4f4e4e; 
+    background-image: url(img/binary-code3500×2625.jpg)
+	background-repeat: repeat-x;
+	
+	font-family: 'Varela Round', sans-serif;
+	}
+    h1{
+    font-family: 'Squada One', cursive;
+	font-size: 70px;
+	padding-left: 30px;
+	padding-top: 50px;
+	color: #9d17f0;
+	text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    }
+    h2{
+    font-family: 'Squada One', cursive;
+	font-size: 40px;
+	color: #bded7b;
+	padding-left: 20px;
+	padding-top: 20px;
+	padding-bottom: 5px;
+	}
+	.theader{
+	font-family: 'Squada One', sans-serif;
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-bottom: 10px;
+	padding-top: 10px;
+	font-size: 30px;
+	text-decoration: underline;
+	color: #9d17f0;
+	text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+	}
+	.tsubject{
+	padding-left: 5px;
+	font-family: 'Varela Round', sans-serif;
+	font-weight: bolder;
+	color: #6af017;
+	text-decoration: underline;
+	text-shadow: -1px -1px 0 #000, 1px -1px 0 #000;
+	border-bottom: 3px solid black;
+	border-right: 2px solid black;
+	border-collapse: collapse;
+	padding: 10px;
+	}
+	.tdesc{
+	padding-left: 5%;
+	padding-bottom: 5px;
+	font-family: 'Varela Round', sans-serif;
+	color: white;
+	font-weight: bold;
+	border-left: 2px solid black;
+	border-bottom: 3px solid black;
+	border-collapse: collapse;
+	padding: 10px;
+	} 
+	 {
+	  
+	}
+	footer{
+	text-align: center;
+	font-size: small;
+	}
+  </style>
+<body>
+  <h1>Thing's I've Been Learning</h1>
+	<!--
+	block
+	comment
+	here
+	-->
+	
+	<table>  
+    <tr>
+	  <th class = "theader">Subject</th>
+	  <th class = "theader">Description</th>
+	</tr>
+	<tr>
+	  <td class = "tsubject">Java </td>
+	  <td class = "tdesc"> Java was the first programming language I learned, and continues to be the one that I'm most 
+	  comfortable in to this day! I have been flipping back and forth between reading "Java: The Complete 
+	  Reference" by Herbert Schildt, and reading "Clean Code" by Robert C. Martin to try and get a better handle 
+	  on not only the different features and tools of the language, but also best practices in making my code legible 
+	  and editable in the future.</td>
+	</tr>
+    <tr>
+      <td class = "tsubject">Python </td>
+      <td class = "tdesc">I started looking into Python pretty shortly after beginning to learn Java. I had heard that 
+	  Python was a bit more lax than Java, and was interested to see what the differences were between the languages. 
+      I have since let Python take somewhat of a backseat to Java, as I have found that them both being object-oriented
+      languages makes it relatively straight-forward to transfer ideas from one to the other.</td>
+    </tr>
+	<tr>
+      <td class = "tsubject">Linux</td>
+      <td class = "tdesc">As I mentioned briefly in the above paragraph, I was first introduced to Ubuntu back in middle school but was
+      generally uninterested in learning about how it worked. In learning about programming, however, I have been 
+      reintroduced to Linux as a development tool and decided that it's about time I become fluent in more operating systems
+	  than just Windows. So far I have read through "Conquering the Command Line: Unix and Linux Commands for Developers" by 
+	  Mark Bates, and am currently working through "The Linux Bible" by Christopher Negus.</td>
+    </tr>
+	<tr>
+	  <td class = "tsubject">HTML  </td>
+	  <td class = "tdesc">HTML was ostensibly my first foray into coding (if one considers HTML "coding"). Before I 
+	  knew anything about languages like Java and even before I knew basic control structures, I learned how to 
+	  format a page with basic HTML tags. My understanding of this, and how it ties into other technologies has
+	  grown over the past few months, and I plan on experiemnting with embedding Java Applets within my HTML soon.</td>
+	</tr>
+	<tr>
+      <td class = "tsubject">CSS  </td>
+      <td class = "tdesc">CSS is normally learned alongside HTML in order to add personal flair to (or "style") one's 
+	  webpages. For me it was no different, and while I can't say that I've put as much time into learning css as 
+	  I have with other technologies, it is something that I would like to become fully proficient at.</td>
+    </tr>
+	<tr>
+      <td class = "tsubject">JavaScript  </td>
+	  <td class = "tdesc">JavsScript completes the front-end trifecta (HTML, CSS, JS), however this is the one of the 
+	  three that I know the least about so far! I look forward to learning more about this language this semester.</td>
+	</tr>
+	<tr>
+      <td class = "tsubject">Ruby  </td>
+	  <td class = "tdesc">In my search for free online learning tools, one of the things I heard talked about over
+		over again was "The Odin Project". This is a free, online, full-stack web development bootcamp. They have (from when
+		I last checked) two curriculums available: Ruby/RubyonRails or JavaScript/JSNode. I decided to start with the
+		Ruby/RubyonRails curriculum because it also dabbled into the javascript and JSNode aspects of things, while the other 
+		curriculum did not touch on Ruby at all. Since starting to learn about and code in this language, I've found it pretty
+		easy to work with and wrap my head around. But I've only just started to dabble!</td>
+	</tr>
+	<tr>
+      <td class = "tsubject">Git/Github </td>
+	  <td class = "tdesc">I knew about Github from following programming subreddits and reading about the subject, but
+I never fully understood what a version control system was. While I still can't say that I have a ton of experience 
+with the technology, I've been doing a lot of reading and have become familiar with the terminology. Additionally, I may
+try to make a pull request on an Open Source project for this year's Hacktober! Fingers crossed.</td>
+	</tr>
+	<tr>
+      <td class = "tsubject">Rust</td>
+	  <td class = "tdesc">I saw an article online about stack overflow's poll for the community's most loved/hated/etc 
+programming language of 2019. Rust was at the top of the list for the most loved languages. Having never used rust, 
+nor read anything about it, I decided to start doing some research. I have since discovered that Rust is a great
+language for systems development as it has a low overhead and implements things like type-safety and file-permissions. 
+I look forward to learning more about Rust in the future.</td>
+	</tr>
+	<tr>
+      <td class = "tsubject">Docker </td>
+	  <td class = "tdesc">In my readings and research, I kept running into brief references to Docker or "containerization" 
+but didn't have much of a frame of knowledge for what that was. I have since done more reading on the subject, and while
+I don't think it's anything I'll be implementing in the near near future, I'm happy to say I'm at least passingly familiar 
+with the idea.</td>
+	</tr>
+  </table>
+  
+  
+</body>
+<footer>
+<p> Page Last Updated: 10/06/2019 </p>
+</html>
